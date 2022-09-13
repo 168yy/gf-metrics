@@ -17,6 +17,13 @@ gf metrics exporter for Prometheus.
 | gf_request_duration    | Histogram | 服务处理请求使用的时间         |
 | gf_slow_request_total  | Counter   | 服务接收到的慢请求计数     |
 
+## Grafana
+
+
+Set the `grafana` directory for details.
+
+![grafana](./grafana/grafana.png)
+
 
 ## Installation
 
