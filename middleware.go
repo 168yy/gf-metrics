@@ -2,7 +2,6 @@ package metrics
 
 import (
 	"github.com/gogf/gf/v2/net/ghttp"
-	"github.com/gogf/gf/v2/os/glog"
 	"strconv"
 	"time"
 )
@@ -54,5 +53,4 @@ func (m *Monitor) MetricHandle(r *ghttp.Request, start time.Time) {
 	if r.Response.BufferLength() > 0 {
 		_ = m.GetMetric(metricResponseBody).Add(nil, float64(r.Response.BufferLength()))
 	}
-	glog.Debug(r.GetCtx(), "Response body len:", r.Response.BufferLength())
 }
