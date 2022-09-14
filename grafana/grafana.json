@@ -64,7 +64,8 @@
         {
           "expr": "rate(gf_request_total[5m])",
           "interval": "",
-          "legendFormat": "",
+          "legendFormat": "{{job}}",
+          "range": true,
           "refId": "A"
         }
       ],
