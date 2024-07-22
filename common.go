@@ -1,6 +1,6 @@
 package metrics
 
-import "github.com/jxo-me/gf-metrics/bloom"
+import "github.com/168yy/gf-metrics/bloom"
 
 var (
 	metricRequestTotal    = "gf_request_total"

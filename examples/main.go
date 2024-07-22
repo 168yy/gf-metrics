@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/168yy/gf-metrics"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
-	"github.com/jxo-me/gf-metrics"
 	"time"
 )
 

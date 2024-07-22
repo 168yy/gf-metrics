@@ -28,7 +28,7 @@ Set the `grafana` directory for details.
 ## Installation
 
 ```bash
-$ go get github.com/jxo-me/gf-metrics
+$ go get github.com/168yy/gf-metrics
 ```
 
 ## Usage

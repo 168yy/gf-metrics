@@ -2,8 +2,8 @@ package metrics
 
 import (
 	"fmt"
+	"github.com/168yy/gf-metrics/bloom"
 	"github.com/gogf/gf/v2/net/ghttp"
-	"github.com/jxo-me/gf-metrics/bloom"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

@@ -1,4 +1,4 @@
-module github.com/jxo-me/gf-metrics
+module github.com/168yy/gf-metrics
 
 go 1.20
 
